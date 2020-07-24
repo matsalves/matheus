@@ -1,0 +1,31 @@
+extensions = [
+
+        # 'exe,','dll','so','rpm','ded','vmlinuz','img', #arquivos do sistema
+
+        'jpg','jpeg','bmp','gif','png','svg','psd','raw',#imagem
+
+        'mp3','mp4','m4a','aac','ogg','flac','wav','wma','aiff','ape',#audio
+
+        'avi','flv','m4v','mkv','mov','mpg','mpeg','wmv','swf','3gp',#video
+
+        'doc','docx','xls','xlsx','ppt','pptx',#microsoft oficce
+
+        'odt','odp','ods','txt','pdf','epub','md','yml','yaml','json','xml','csv',#dados de estruturas e configs
+
+        'db','sql','dbf','mdb','iso',#banco de dados
+
+        'html','htm','xhtml','php','asp','aspx','js','jsp','css',#web
+
+        'c','cpp','cxx','h','hpp','hxx',#codigo fonte c e c++
+
+        'java','class','jar',#java
+
+        'ps','bat','vb',#windows
+
+        'awk','sh','cgi','pl','ada','swift',#unix
+
+        'go','py','pyc','bf','coffee',#outros codigos fontes
+
+        'zip','tar','tgz','bz2','7z','rar','bak',#compactos
+
+        ]
