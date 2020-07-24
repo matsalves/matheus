@@ -1,3 +1,10 @@
+import os
+
+def discover(inicial_path):
+
+
+#extensões de possiveis alvos
+
 extensions = [
 
         # 'exe,','dll','so','rpm','ded','vmlinuz','img', #arquivos do sistema
@@ -29,3 +36,18 @@ extensions = [
         'zip','tar','tgz','bz2','7z','rar','bak',#compactos
 
         ]
+
+
+for dirpath, dirs, files in os.walk(initial_path):
+        for _file in files:
+                abspath = os.path.abspath(os.path.join(dirpath, _file))
+                ext = abspath.split('.')[=1]
+                if ext in extensions:
+                        yield absolute_path
+  # isso é só executado quando você executa o módulo diretamente
+  if __name__ == ''__main__':
+  x = discover(os.getcwd())
+  for i in x:
+  print (i)
+  
+                        
